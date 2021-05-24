@@ -1,0 +1,20 @@
+.ProductList {
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  &__item {
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.35);
+    img {
+      border-bottom: 2px solid rgb(236, 236, 236);
+      width: 100%;
+    }
+    div {
+      padding: 10px;
+    }
+    &:hover {
+      transform: scale(0.98);
+    }
+  }
+}

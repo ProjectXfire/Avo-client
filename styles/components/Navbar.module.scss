@@ -1,0 +1,22 @@
+.container {
+  padding: 5px 0;
+  background-color: #1b1c1d;
+}
+
+.menu {
+  padding: 0 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    &:hover {
+      background-color: rgb(219, 219, 219);
+      color: black;
+    }
+  }
+}
